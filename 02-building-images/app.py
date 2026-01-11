@@ -18,4 +18,6 @@ def hello():
     '''
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    # Note: debug=False is recommended for production use
+    # For learning purposes, you can set debug=True to see detailed error messages
+    app.run(host='0.0.0.0', port=5000, debug=False)
